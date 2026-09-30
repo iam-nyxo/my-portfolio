@@ -1,6 +1,6 @@
 // Personal Information Data
 export const personalInfo = {
-  name: "RA Pasindu Gimhana",
+  name: "Pasindu Ranaweera",
   nickname: "Nyxo",
   role: "Software Engineering Undergraduate Student",
   bio: "Passionate developer focused on web technologies, financial market systems analysis, and modern UI engineering.",
