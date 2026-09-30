@@ -5,7 +5,7 @@ import GlassCard from '../components/GlassCard';
 // Hero Section Component with Social Links
 export default function Hero() {
   return (
-    <section id="hero" className="pt-32 pb-12 flex flex-col md:flex-row items-center gap-10">
+    <section id="hero" className="pt-32 pb-12 flex flex-col md:flex-row items-center gap-10 pt-32 pb-12 flex flex-col md:flex-row items-center gap-10">
       <div className="flex-1 space-y-6">
         {/* Availability Badge */}
         {/* <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full crystal-glass text-cyan-300 text-xs font-semibold uppercase tracking-wider">
