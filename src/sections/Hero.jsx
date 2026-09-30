@@ -2,31 +2,13 @@ import React from 'react';
 import { personalInfo } from '../data';
 import GlassCard from '../components/GlassCard';
 
-export default function Hero() {
-  return (
-    <section className="relative min-h-screen flex items-center justify-center p-6">
-      <div className="flex flex-col items-center text-center gap-6">
-        <img 
-          src="/profile.jpg" 
-          alt="Profile" 
-          className="w-32 h-32 rounded-full border-2 border-white/20 object-cover" 
-        />
-        <img 
-          src="/hero.png" 
-          alt="Hero Banner" 
-          className="max-w-full h-auto" 
-        />
-      </div>
-    </section>
-  );
-}
 // Hero Section Component with Social Links
 export default function Hero() {
   return (
     <section id="hero" className="pt-32 pb-12 flex flex-col md:flex-row items-center gap-10">
       <div className="flex-1 space-y-6">
-        {/* Availability Badge
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full crystal-glass text-cyan-300 text-xs font-semibold uppercase tracking-wider">
+        {/* Availability Badge */}
+        {/* <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full crystal-glass text-cyan-300 text-xs font-semibold uppercase tracking-wider">
           <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse"></span>
           Available for Projects
         </div> */}
@@ -97,19 +79,19 @@ export default function Hero() {
         </div>
       </div>
 
-    {/* Profile Image Frame with Cyan/Indigo Ambient Glow */}
-    <div className="w-full md:w-80 flex justify-center relative">
-    {/* Background Glow Effect to match Glass theme */}
-    <div className="absolute inset-0 w-72 h-80 bg-gradient-to-r from-cyan-500/20 to-indigo-500/20 rounded-2xl blur-2xl -z-10"></div>
+      {/* Profile Image Frame with Cyan/Indigo Ambient Glow */}
+      <div className="w-full md:w-80 flex justify-center relative">
+        {/* Background Glow Effect */}
+        <div className="absolute inset-0 w-72 h-80 bg-gradient-to-r from-cyan-500/20 to-indigo-500/20 rounded-2xl blur-2xl -z-10"></div>
 
-    <GlassCard className="p-2 w-72 h-80 relative flex items-center justify-center overflow-hidden border border-slate-700/60 shadow-2xl shadow-cyan-500/10 group">
-        <img 
-        src="/src/assets/images/profile.jpg" 
-        alt={personalInfo.name} 
-        className="w-full h-full object-cover rounded-xl transition-transform duration-500 group-hover:scale-105 contrast-[1.05] brightness-[1.02]"
-        />
-    </GlassCard>
-    </div>
+        <GlassCard className="p-2 w-72 h-80 relative flex items-center justify-center overflow-hidden border border-slate-700/60 shadow-2xl shadow-cyan-500/10 group">
+          <img 
+            src="/profile.jpg" 
+            alt={personalInfo.name} 
+            className="w-full h-full object-cover rounded-xl transition-transform duration-500 group-hover:scale-105 contrast-[1.05] brightness-[1.02]"
+          />
+        </GlassCard>
+      </div>
     </section>
   );
 }
