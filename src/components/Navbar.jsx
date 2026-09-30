@@ -27,7 +27,7 @@ export default function Navbar() {
 
   return (
     <header className="fixed top-4 inset-x-0 z-50 px-4 max-w-5xl mx-auto pointer-events-auto">
-      <nav className="crystal-glass animated-glow-border rounded-full px-6 py-3 flex items-center justify-between shadow-2xl transition-all relative z-50">
+      <nav className="crystal-glass animated-glow-border rounded-full px-6 py-3 flex items-center justify-between shadow-2xl transition-all relative z-50 fixed top-0 left-0 right-0 z-50 bg-slate-900/80 backdrop-blur-md border-b border-slate-800/50" >
         {/* Brand Logo Link */}
         <a 
           href="#hero" 
