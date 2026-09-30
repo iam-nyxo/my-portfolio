@@ -1,16 +1,38 @@
-# React + Vite
+# 🚀 3D Glassmorphism Web Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive, dark-themed personal portfolio website built with **React**, **Tailwind CSS**, and **Web3Forms**. Features a sleek white-crystal glassmorphism aesthetic with animated glowing hover effects.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 💎 **Glassmorphic UI**: Custom backdrop blur, translucent cards, and crystal borders.
+- ⚡ **Animated Borders**: Clockwise glowing border highlights on card hover.
+- 📱 **Fully Responsive**: Optimized for desktop, tablet, and mobile displays.
+- 📬 **Working Contact Form**: Integrated with Web3Forms for direct email delivery.
+- 🛠️ **Modern Tech Stack**: Fast build times with Vite and utility-first styling via Tailwind CSS.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Frontend**: React.js, Vite
+- **Styling**: Tailwind CSS, Custom CSS Utilities
+- **Form Handling**: Web3Forms API
+- **Icons & Assets**: Lucide React / React Icons
+
+---
+
+## 🚀 Getting Started
+
+To run this project locally, follow these steps:
+
+### Prerequisites
+Make sure you have **Node.js** installed on your machine.
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/iam-nyxo/my-portfolio.git](https://github.com/iam-nyxo/my-portfolio.git)
+   cd my-portfolio
