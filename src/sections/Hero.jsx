@@ -4,10 +4,19 @@ import GlassCard from '../components/GlassCard';
 
 export default function Hero() {
   return (
-    <section>
-      {/* public folder එකේ තියෙන නිසා direct string path එක මෙහෙම දාන්න */}
-      <img src="/profile.jpg" alt="Profile" className="w-32 h-32 rounded-full" />
-      <img src="/hero.png" alt="Hero Banner" />
+    <section className="relative min-h-screen flex items-center justify-center p-6">
+      <div className="flex flex-col items-center text-center gap-6">
+        <img 
+          src="/profile.jpg" 
+          alt="Profile" 
+          className="w-32 h-32 rounded-full border-2 border-white/20 object-cover" 
+        />
+        <img 
+          src="/hero.png" 
+          alt="Hero Banner" 
+          className="max-w-full h-auto" 
+        />
+      </div>
     </section>
   );
 }
