@@ -3,14 +3,14 @@ export const personalInfo = {
   name: "Pasindu Ranaweera",
   nickname: "Nyxo",
   role: "Software Engineering Undergraduate Student",
-  bio: "Passionate developer focused on web technologies and modern UI engineering.",
+  bio: "Passionate developer focused on building scalable web applications, cross-platform mobile apps, and modern UI/UX systems. Driven by clean code and intuitive engineering.",
   socials: {
     github: "https://github.com/iam-nyxo",
     linkedin: "https://linkedin.com/in/pasindu-ranaweera-179b03405",
   },
   about: {
     title: "About Me",
-    description: "I am a Software Engineering undergraduate student driven by logic, continuous learning, and clean UI engineering. I specialize in building responsive modern web applications, combining standard design principles with efficient backend workflows. Apart from software engineering, I have a keen focus on financial market structure analysis.",
+    description: "I am a Software Engineering undergraduate passionate about crafting high-performance web and mobile applications. My core expertise lies in building clean, responsive user interfaces and robust backend systems using modern technologies like React, Vite, Tailwind CSS, and FastAPI.",
     highlights: [
       { label: "Degree", value: "BSc (Hons) Software Engineering (Undergraduate)" },
       { label: "Focus Areas", value: "Web Systems, Market Data & UI Design" },
