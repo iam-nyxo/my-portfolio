@@ -1,15 +1,13 @@
+import React from 'react';
 import { personalInfo } from '../data';
 import GlassCard from '../components/GlassCard';
-import React from 'react';
-
-import profileImg from '/profile.jpg';
-import heroImg from '../assets/images/hero.png';
 
 export default function Hero() {
   return (
     <section>
-      <img src={profileImg} alt="Profile" className="w-32 h-32 rounded-full" />
-      <img src={heroImg} alt="Hero Banner" />
+      {/* public folder එකේ තියෙන නිසා direct string path එක මෙහෙම දාන්න */}
+      <img src="/profile.jpg" alt="Profile" className="w-32 h-32 rounded-full" />
+      <img src="/hero.png" alt="Hero Banner" />
     </section>
   );
 }
