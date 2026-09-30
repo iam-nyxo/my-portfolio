@@ -3,7 +3,7 @@ export const personalInfo = {
   name: "Pasindu Ranaweera",
   nickname: "Nyxo",
   role: "Software Engineering Undergraduate Student",
-  bio: "Passionate developer focused on web technologies, financial market systems analysis, and modern UI engineering.",
+  bio: "Passionate developer focused on web technologies and modern UI engineering.",
   socials: {
     github: "https://github.com/iam-nyxo",
     linkedin: "https://linkedin.com/in/pasindu-ranaweera-179b03405",
