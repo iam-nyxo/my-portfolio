@@ -2,7 +2,7 @@ import { personalInfo } from '../data';
 import GlassCard from '../components/GlassCard';
 import React from 'react';
 
-import profileImg from '../assets/images/profile.jpg';
+import profileImg from '/profile.jpg';
 import heroImg from '../assets/images/hero.png';
 
 export default function Hero() {
