@@ -1,6 +1,18 @@
 import { personalInfo } from '../data';
 import GlassCard from '../components/GlassCard';
+import React from 'react';
 
+import profileImg from '../assets/images/profile.jpg';
+import heroImg from '../assets/images/hero.png';
+
+export default function Hero() {
+  return (
+    <section>
+      <img src={profileImg} alt="Profile" className="w-32 h-32 rounded-full" />
+      <img src={heroImg} alt="Hero Banner" />
+    </section>
+  );
+}
 // Hero Section Component with Social Links
 export default function Hero() {
   return (
